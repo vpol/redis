@@ -1458,6 +1458,7 @@ void sismemberCommand(redisClient *c);
 void scardCommand(redisClient *c);
 void spopCommand(redisClient *c);
 void srandmemberCommand(redisClient *c);
+void srandmemberstoreCommand(redisClient *c);
 void sinterCommand(redisClient *c);
 void sinterstoreCommand(redisClient *c);
 void sunionCommand(redisClient *c);
